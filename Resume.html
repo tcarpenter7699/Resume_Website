@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
    <!--Navbar Section--> 
     <nav class="navbar">
         <div class="navbar__container">
@@ -27,33 +26,54 @@
                     <a href="/Home.html" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
+                    <a href="/Resume.html" class="navbar__links">Resume</a>
+                </li>
+                <li class="navbar__item">
                     <a href="/Education.html" class="navbar__links">Education</a>
                 </li>
                 <li class="navbar__item">
                     <a href="/Interests.html" class="navbar__links">Interests</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/images/HireMe.jpeg" class="button">Hire Me!</a>
+                    <a href="Contact.html" class="button">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!--Text Section-->
-    <div class="resume">
-        <div class="resume__container">
-            <div class="resume__content">
-                <h1>Trent Carpenter<h1>
-                <h2>26289 Robindale Drive, Denham Springs, LA 70726</h2>
-                <h3>Phone: (225) 726-8636</h3>
-                <h4>Email: tcarpenter7699@gmail.com</h4>
-                <h5>EDUCATION</h5>
-                <p>Louisiana State University, Baton Rouge (2018-2023)</p>
-                <p>Bachelors of Science degree in Kinesiology with a focus in Physical Therapy</p>
-                <p>GPA: 3.00</p>
-                <h5>EXPERIENCE</h5>
-                <h6>System Operator at Intralot from April 2021-July 2023</h6>
-                <ul>
+    <div class="row">
+        <div class="column">
+            <div class="info--container">
+                <h1 class="Head">Trent Carpenter</h3>
+                <p class="ContactInfo">26289 Robindale Drive<br/>Denham Springs, LA 70726<br/>Phone: (225) 726-8636<br/>Email: tcarpenter7699@gmail.com</p>
+                <br>
+                <h1 class="Head">Education</h3>
+                <p class="EDU">Louisiana State University, Baton Rouge (2018-2023)<br>
+                Bachelors of Science degree in Kinesiology with a focus in Physical Therapy<br>
+                GPA: 3.00</p>
+                <br>
+                <h1 class="Head">Certifications/Skills</h3>
+                <ul class="Skills">
+                    <li>Quick learner</li>
+                    <li>Excellent work ethic</li>
+                    <li>Capable of diverse responsibilities and tasks</li>
+                    <li>Team player</li>
+                    <li>Microsoft Office package</li>
+                    <li>Work communication via email</li>
+                    <li>Experience with various operating systems and applications</li>
+                    <li>Basics of HTML, CSS, JS, JQuery, API, and Bootstrap</li>
+                </ul>
+            </div>
+            <div class="RES-IMG-container">
+                <img src="/images/ResumePage.jpeg" class="RES-IMG" alt="Picture of Me" style="width:125%">
+            </div>
+        </div>    
+        <div class="column">
+            <div class="work__content">
+                <h2>System Operator</h2>
+                <p1>Intralot <br>(April 2021-July 2023)</p1>
+                <ul class="Duties">
                     <li>Monitor and troubleshoot systems.</li>
                     <li>Handle retailer and tech calls assisting with field issues in the field.</li>
                     <li>Run draws for state lottery games.</li>
@@ -79,21 +99,33 @@
                     <li>Send out emails to coworkers to stay coordinated and informed on problems or extra tasks.</li>
                     <li>Test new procedures and deployments on QA and UAT systems.</li>
                 </ul>
-                <h6>Cook/Waiter at The Coffee House from May 2020-November 2020</h6>
-                <ul>
+            </div>
+            <br>
+            <div class="work__content">
+                <h2 class="Job">Cook/Waiter</h2>
+                <p1>The Coffee House <br>(May 2020-November 2020)</p1>
+                <ul class="Duties">
                     <li>Waited tables.</li>
                     <li>Cooked beignets.</li>
                     <li>Cleaned the kitchen, dishes, and seating area.</li>
                     <li>Customer service.</li>
                 </ul>
-                <h6>Admissions Worker at Blue Bayou from June 2019-August 2019</h6>
-                <ul>
+            </div>
+            <br>
+            <div class="work__content">
+                <h2 class="Job">Admissions Worker</h2>
+                <p1>Blue Bayou <br>(June 2019-August 2019)</p1>
+                <ul class="Duties">
                     <li>Cashier work.</li>
                     <li>Customer service.</li>
                     <li>Worked at various posts and buildings.</li>
                 </ul>
-                <h6>Clerk/Cashier at Chenevert's Hardware from January 2018-August 2018</h6>
-                <ul>
+            </div>
+            <br>
+            <div class="work__content">
+                <h2 class="Job">Clerk/Cashier</h2>
+                <p1> Chenevert's Hardware <br>(January 2018-August 2018)</p1>
+                <ul class="Duties">
                     <li>Cashier work.</li>
                     <li>Stocking shelves.</li>
                     <li>Cleaning.</li>
@@ -101,22 +133,13 @@
                     <li>Building equipment.</li>
                     <li>Unloading shipments.</li>
                 </ul>
-                <h5>CERTIFICATIONS/SKILLS</h5>
-                <ul>
-                    <li>Quick learner</li>
-                    <li>Excellent work ethic</li>
-                    <li>Capable of diverse responsibilities and tasks</li>
-                    <li>Team player</li>
-                    <li>Microsoft Office package</li>
-                    <li>Work communication via email</li>
-                    <li>Experience with various operating systems and applications</li>
-                    <li>Basics of HTML, CSS, JS, JQuery, API, and Bootstrap</li>
-                </ul>
+                
+              
             </div>
-        </div>
-    </div>
+        </div>     
+    </div>    
 
-   <!-- FOOTER SECTION -->
+   <!-- FOOTER SECTION -->  
    <div class="footer__container">
     <div class="footer__links">
         <div class="footer__link--wrapper">
@@ -140,6 +163,7 @@
             </div>
         </div>
     </div>
+
 <script src="app.js"></script>
 </body>
 </html>
